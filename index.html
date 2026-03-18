@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+    <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
     <head>
         <link rel="stylesheet" href="style.css">
         <title>
@@ -7,32 +12,73 @@
         </title>
     </head>
     <body>
+        <header>
         <h1>Legal Documentation & Services</h1>
+        </header>
+        <section class="about">
         <p>
             We provide PAN Card, Aadhaar, Passport,
             Affidavit, and Notary related Services
             with fast and reliable support.
         </p>
+        </section>
+
+<section id="services" class="services">
+<section id="contact" class="contact">
+
+    <a href="#services">Services</a>
+<a href="#contact">Contact</a>
+
+        <section class="services">
         <h2>Our Services</h2>
-        <ul>
-            <li>PAN Card Apply / Correction</li>
-            <li>Aadhaar Update</li>
-            <li>Passport Apply & Assistance</li>
-            <li>Affidavit & Notary Services</li>
-        </ul>
+        
+            <div class="service-container">
+                <div class="card">
+                    <h3>PAN CARD</h3>
+                    <p>New Apply & Correction Services</p>
+                </div>
+
+                <div class="card">
+                    <h3>Aadhaar Update</h3>
+                    <p>Address, Mobile & Other Updates</p>
+                </div>
+
+                <div class="card">
+                    <h3>Passport Assistance</h3>
+                    <p>New Apply & Documentation Help</p>
+                </div>
+
+                <div class="card">
+                    <h3>Affidavit & Notary</h3>
+                    <p>All Legal Documentation Support</p>
+                </div>
+            </div>
+        
+        </section>
+
+        <section class="contact">
         <h2>Contact Form</h2>
-        <form>
+        <form id="contactForm">
             <label>Name:</label><br>
-            <input type="text" placeholder="Enter your name"><br><br>
+            <input type="text" id="name" placeholder="Enter your name"><br><br>
 
             <label>Mobile Number:</label><br>
-            <input type="tel" placeholder="Enter your mobile number"><br><br>
+            <input type="tel" id="mobile" placeholder="Enter your mobile number"><br><br>
 
             <label>Service Required:</label><br>
-            <input type="text" placeholder="Which Service"><br><br>
+            <input type="text" id="service" placeholder="Which Service"><br><br>
 
             <button type="submit">Submit</button>
         </form>
-        <a href="8872334229">Contact on WhatsApp</a>
+        </section>
+        <a href="https://wa.me/918872334229" target="_blank">
+    Contact on WhatsApp
+</a>
     </body>
+    <script src="script.js"></script>
+
+<footer>
+    <p>© 2026 Legal Documentation Services | All Rights Reserved</p>
+</footer>
+
 </html>
