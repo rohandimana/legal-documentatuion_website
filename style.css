@@ -171,6 +171,9 @@ footer {
         text-align: center;
     }
 }
-p {
-    text-align: justify;
+@media (max-width: 768px) {
+    p {
+        text-align: left;
+        line-height: 1.6;
+    }
 }
